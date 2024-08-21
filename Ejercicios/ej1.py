@@ -19,7 +19,7 @@ class Persona():
 
     #Métodos (Comportamientos) (Deben estar dentro de la clase)
     def hablar(self):
-        print(f"{self.nombre} está hablando")
+        print(f"{self.nombre} está hablando") 
 
     def caminar(self):
         print(f"{self.nombre} está caminando")
