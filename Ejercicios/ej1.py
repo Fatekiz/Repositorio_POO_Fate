@@ -32,7 +32,8 @@ class Persona():
         elif imc >= 18.5 and imc < 25:
             print(f" Según su imc se encuentra con un peso ideal y dentro del rango saludable.")    
         else:
-            print("Según su imc se encuentra  ")
+            print(f" El imc de {self.nombre} es: {imc}, Según su imc se encuentra sobre peso, lo cuál es peligroso para su salud.")
+        return imc
 
 
 
@@ -45,3 +46,5 @@ persona1 = Persona("Rocio", "Cardenas", 27, 1.53, 65)
 persona2 = Persona("Benjamin", "Concha", 19, 1.71, 100)
 
 # imprimiendo 
+
+persona2.calcular_imc()
